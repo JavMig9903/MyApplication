@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/holiss"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFFFFF"
+        android:text="Botón 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="252dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Botón 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="216dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FFFFFF"
+        android:text="Botón 3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="22dp" />
+
+</LinearLayout>
